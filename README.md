@@ -1,1 +1,1 @@
-# js1
+# my-first-slackbot
