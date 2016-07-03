@@ -1,0 +1,14 @@
+My-First-Slackbot - rohan 
+
+Process
+
+1.	Created new github repository, my-first-slackbot
+2.	Cloned repository
+3.	Add initial files & pushed to git
+4.	NPM install to folder  (! check what NPM is)
+5.	! copying .env file
+
+6.	Generated Slack access token: https://api.slack.com/docs/oauth-test-tokens
+DOCS: https://api.slack.com/methods/auth.test
+
+7. 

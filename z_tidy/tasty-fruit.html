@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tasty Fruit</title>
+  </head>
+  <body>
+
+<!--
+  	document.querySelector('body').addEventListener('click', (event) => {
+  console.log('clicked body')
+}, true)
+document.querySelector('li').addEventListener('click', (event) => {
+  console.log('clicked li')
+  event.stopPropagation()
+})
+document.querySelector('ul').addEventListener('click', (event) => {
+  console.log('clicked ul')
+})
+-->
+
+    <img id="fruits" src="http://bit.ly/1V62kTZ" />
+    <h1>Some <span class="highlight">nice</span> fruits</h1>
+    <ul>
+      <li>Apples</li>
+      <li>Pears</li>
+      <li><span class="highlight">Blood</span> Oranges</li>
+    </ul>
+
+  <script src="https://rawgit.com/jesstelford/a981e6877034231bd43b526a07b3a7b4/raw/js1-utilities.js"></script>
+
+<!--
+	delegate('body','click','li',(event) => {
+		console.log('clicked li, handled in body')
+		console.log(event.delegateTarget)
+	})
+-->
+
+  </body>
+</html>
